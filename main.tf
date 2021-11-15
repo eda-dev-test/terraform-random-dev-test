@@ -1,5 +1,6 @@
 resource "random_pet" "this" {
-  length = 29
+  length = 3
+  separator = "."
 }
 
 output "pet" {
